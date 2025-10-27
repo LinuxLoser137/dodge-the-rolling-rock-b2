@@ -1,0 +1,17 @@
+{
+    "image2": {
+        "data": "hwQYABgAAAAAAAAA//D/AAAAAAAAAP//79+7DwAAAAAA8P/+7t+7/AAAAAAA/+/yT9+7/AAAAAAA/y7/G9+7/w8AAADwLy7v//3/9A8AAADwIi7v1E0i9QAAAADwIi7v1E0i9QAAAADwLy7v/00i9A8AAAAA/y7/G+0i9A8AAAAA/+/yT+7/DwAAAAAA8O/+7v7UBAAAAAAAAP//7w9OBAAAAAAAAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "dodger"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAzMwAAAAAAMzLywwAAAAA3Lu8zAAAAMzcvbzMAMDMu7zdzMwAvN27y93LzADc3d2728vMDNvd3bvby7wM293du9u7vMvb3d2929u8y7Dd3b3b27zLANvdvb3bvMsA2927vb27DACwu7u7zbsMAAAA293MywAAAACwy7wLAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "rock"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
