@@ -23,14 +23,21 @@
  * <--- This piece of code creates the player/ dodger sprite.
  */
 /**
+ * <-- This controls what happens when you hit buttons
+ */
+/**
+ * <-- This sets a life counter
+ */
+/**
+ * <-- This helps the player/dodger stay on the screen
+ */
+/**
  * <-- This controls what the rock does.
  */
 /**
  * <-- This controls what happens when the rock hits the dodger
  */
-/**
- * <-- This ends the game
- */
+// <-- This ends the game
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (p, e) {
     e.destroy(effects.disintegrate, 200)
     info.changeLifeBy(-1)
@@ -39,15 +46,6 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (p, e) {
         game.over(false, effects.melt)
     }
 })
-/**
- * <-- This controls what happens when you hit buttons
- */
-/**
- * <-- This helps the player/dodger stay on the screen
- */
-/**
- * <-- This sets a life counter
- */
 let rock: Sprite = null
 // Dodge the Rolling Rock - Beginner 2
 scene.setBackgroundColor(1)
@@ -57,9 +55,7 @@ player2.setFlag(SpriteFlag.StayInScreen, true)
 // Position the dodger closer to the bottom of the screen
 player2.y = 110
 info.setLife(3)
-/**
- * <-- This creates the enemy/rock sprite
- */
+// <-- This creates the enemy/rock sprite
 game.onUpdateInterval(800, function () {
     rock = sprites.create(assets.image`rock`, SpriteKind.Enemy)
     rock.x = randint(10, 150)
